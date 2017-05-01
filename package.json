@@ -1,0 +1,26 @@
+{
+  "name": "staticful",
+  "version": "0.0.1",
+  "description": "Static site generator with Contentful as CMS",
+  "main": "generator.js",
+  "repository": "https://github.com/rvlaskamp/staticful.git",
+  "author": "rvlaskamp <rvlaskamp@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "contentful": "^4.2.1",
+    "reshape": "^0.4.1",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "markdown-it": "^8.3.1",
+    "mkdirp": "^0.5.1",
+    "reshape-content": "^0.2.0",
+    "reshape-expressions": "^0.1.5",
+    "reshape-layouts": "^1.0.0",
+    "reshape-markdown": "^1.1.1",
+    "reshape-md": "^1.0.1",
+    "reshape-minify": "^0.1.2",
+    "reshape-standard": "^1.1.0",
+    "util": "^0.10.3"
+  }
+}
